@@ -1,0 +1,208 @@
+/* Меню */
+.header-content.photo_report {
+    margin-top: -304px;
+}
+
+.menu {
+	width: 100%;
+	height: 40px;
+	background: #000;
+	z-index: 200;
+}
+
+.menu li{
+	color:#fff;
+	text-transform: uppercase;
+	text-align: center;
+	width: 145px;
+	position:relative;
+	font-size: 13px;
+}
+
+.menu li a span {
+  font-family: 'Roboto Condensed', sans-serif;
+  text-transform: uppercase;
+}
+
+.menu li a span:before {
+    content:' ';
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 0px;
+	left: 0px;
+	font-size: 0;
+	background: url('../img/top-menu.png') no-repeat;
+	background-size: auto 40px;
+}
+
+.menu li a span.icon-home:before  {
+	background-position: -360px 0px;
+}
+
+.menu li a span.icon-local-offer:before  {
+  background-position: -494px 0;
+    left: -12px;
+    width: 50px;
+}
+
+.menu li a span.icon-coffee:before  {
+    background-position: -654px 0;
+    left: 7px;
+}	
+
+.menu li a span.icon-leaf:before   {
+  background-position: -767px 0;
+    left: -20px;
+}
+
+.menu li a span.icon-microphone4:before  {
+	background-position: -935px 0;
+}	
+
+.menu li a span.icon-phone:before  {
+	background-position: -1083px 0;
+}
+
+
+.menu li.active a span:last-child{
+	text-decoration: underline;
+}
+
+.menu li:hover a span:last-child{
+	text-decoration: underline;
+}
+
+.home_header {
+	height: 491px;
+	background-position:center center;
+	background-size:cover
+}
+.logo {
+    width: 144px;
+    height: 304px;
+    top: 0px !important;
+    margin: 0px auto 0px;
+    padding-top: 138px;
+    z-index: 99;
+    position: relative;
+}
+
+.logo_tel {
+	margin-top: 20px;
+	background: #000;
+}
+.logo_tel.home {
+	margin-top: 10px;
+}
+
+.logo_tel p {
+	text-transform: uppercase;
+	color:#fff;
+	text-align: center;
+	padding: 5px;
+	font-size: 14px;
+    font-weight: normal;
+    line-height: 19px;
+    letter-spacing: 1px;
+}
+
+.logo_tel p span.phone {
+	font-size: 16px;
+    font-weight: normal;
+}
+
+.header_text {display: none}
+
+/* header мероприятие */
+.invest .home_header, 
+.menu_index .home_header,
+.wine .home_header,
+.contacts .home_header {
+	height: 239px;
+}
+
+
+.menu_index .logo,
+.wine .logo,
+.contacts .logo {
+    width: 78px;
+    padding-top: 76px;
+}
+.invest .logo {
+    width: 78px;
+    padding-top: 76px;
+}
+
+.menu_index .logo img,
+.wine .logo img,
+.contacts .logo img {
+}
+
+.invest .logo_tel,
+.menu_index .logo_tel,
+.wine .logo_tel,
+.contacts .logo_tel {
+    position: absolute;
+    top: 94px;
+    left: 330px;
+    width: 146px;
+    height: 50px;
+}
+
+/******************/
+
+/*.photo_report .home_header:before {
+	content: '';
+	height: 491px;
+	width: 50%;
+	position: absolute;
+	top:0;
+	right: 0;
+	background: #000;
+	
+}*/
+
+.photo_report .header_text {
+	display: block;
+	color: #fff;
+	width: 240px;
+	margin-left: 200px;
+	padding-top: 50px;
+}
+
+.photo_report .header_text h4,
+.photo_report .header_text p {
+	position: relative;
+	z-index: 101;
+}
+
+.photo_report .header_text p {
+	font-size: 14px;
+	font-size: .875rem;
+}
+
+.photo-header-right {
+    float: right;
+    width: 50%;
+    background-color: black;
+    height: 100%;
+    margin-top: -304px;
+}
+
+.photo-header-left-background {
+    float: left;
+    width: 50%;
+    background-color: black;
+    height: 100%;
+    margin-top: -304px;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+

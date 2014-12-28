@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'icomoon' !important;
+	src:url('../fonts/icomoon.eot?-jenego');
+	src:url('../fonts/icomoon.eot?#iefix-jenego') format('embedded-opentype'),
+		url('../fonts/icomoon.woff?-jenego') format('woff'),
+		url('../fonts/icomoon.ttf?-jenego') format('truetype'),
+		url('../fonts/icomoon.svg?-jenego#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-map-pin-fill:before {
+	content: "\e60f";
+}
+.icon-mic2:before {
+	content: "\e609";
+}
+.icon-home:before {
+	content: "\f08d";
+}
+.icon-home2:before {
+	content: "\e60a";
+}
+.icon-envelope:before {
+	content: "\e610";
+}
+.icon-phone:before {
+	content: "\e600";
+}
+.icon-camera:before {
+	content: "\e60c";
+}
+.icon-leaf:before {
+	content: "\e602";
+}
+.icon-microphone4:before {
+	content: "\e605";
+}
+.icon-navigate-before:before {
+	content: "\e60d";
+}
+.icon-navigate-next:before {
+	content: "\e60e";
+}
+.icon-local-offer:before {
+	content: "\e601";
+}
+.icon-coffee:before {
+	content: "\f0f4";
+}
