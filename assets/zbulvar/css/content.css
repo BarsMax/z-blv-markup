@@ -1,3 +1,5 @@
+.cf{zoom:1}.cf:before,.cf:after{content:"";display:table}.cf:after{clear:both}
+
 .section_content {
 	margin-bottom: 100px;
 	min-height: 100%;
@@ -527,123 +529,113 @@ li.action_box {
 
 /* KARAOKE */
 
-.deposit, .star {
-	width: 440px;
-	display: inline-block;
-	vertical-align: top;
+.karaoke-container {
+    margin: 0px auto;
+    width: 620px;
+}
+.karaoke-container h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    font-weight: normal;
+    color: black;
+    margin-top: 29px;
+    margin-bottom: 11px;
+}
+.karaoke-left {
+    float: left;
+    width: 390px;
+    margin-right: 30px;
+}
+.karaoke-text {}
+.karaoke-text p {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    line-height: 30px;
+}
+.karaoke-right {
+    float: left;
+}
+.kar-price {
+    margin-left: 13px;
+    margin-right: -20px;
+    margin-bottom: 8px;
+}
+.kar-price .price {
+    display: block;
+    float: left;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 64px;
+}
+.kar-price .currency {
+    display: block;
+    float: left;
+    color: white;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 7px;
+    margin-left: 4px;
+}
+.kar-price-descr {
+    font-size: 14px;
+    text-transform: lowercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    margin-top: 4px;
+    margin-right: -7px;
+}
+.karaoke-circle-wrap {
+    margin-right: -40px;
+    margin-top: 43px;
+    margin-left: 3px;
+}
+.karaoke-circle {
+    width: 208px;
+    height: 208px;
+    background-color: black;
+    border-radius: 50%;
+}
+.karaoke-circle .line {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    height: 0px;
+    border-top: 1px solid #ffffff;
+    margin-left: 4px;
+    margin-right: -5px;
+}
+.karaoke-circle .line:before, .karaoke-circle  .line:after {
+    background-color: #ffffff;
+}
+.karaoke-circle-inner {
+    color: white;
+    margin: 0px auto;
+    width: 162px;
+    padding-top: 56px;
 }
 
-.deposit {
 
+.karaoke-phone-wrap {
+    margin-top: 26px;
 }
-
-.star {
-	padding: 0 0 0 50px;
+.karaoke-phone-wrap p {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    margin: 0px;
+    line-height: 13px;
+    letter-spacing: 1px;
 }
-
-.circle {
-	position: relative;
-	display: inline-block;
-	width: 245px;
-	height: 245px;
-	margin: auto;
-	border-radius: 50%;
-	background: #000;
-	color: #fff;
-	margin-left: 97.5px;
-}
-
-.circle:before {
-	content: ".........................";
-	position: absolute;
-	top: 100px;
-	left: 245px;
-	color: #666;
-	font-size: 16px;
-	font-size: 1rem;
-}
-
-.circle .line {
-	margin: -20px auto 0;
-	width: 190px;
-	border-color: #fff;
-}
-
-.circle .line:before, 
-.circle .line:after {
-	background: #fff;
-}
-
-.circle p {
-	margin-top: -40px;
-	text-align: center;
-}
-
-.karaoke_price {
-	display: block;
-	position: relative;
-	width: 245px;
-	font-size: 72px;
-	font-size: 4.5rem;
-	font-weight: bold;
-	color: #fff;
-	text-align: center;
-	margin-top: 40px;
-}
-
-.karaoke_price:before {
-	content: 'руб.';
-	position: absolute;
-	top: 25px;
-	right: 20px;
-	font-size: 16px;
-	font-size: 1rem;
-}
-
-.star h4 {
-  margin: 0 0 10px;
-  text-transform: uppercase;
-  font-weight: 100;
-}
-
-.star > p {
-	height: 192px;
-	margin-bottom: 20px;
-	overflow: hidden;
-}
-
-
-.zakaz {
-	position: relative;
-	width: 245px;
-	height: 50px;
-	background: #000;
-	color:#fff;
-	text-align: center;
-}
-
-.zakaz:before {
-	content: "...........";
-	position: absolute;
-	top: 0;
-	left: -50px;
-	color: #666;
-	font-size: 16px;
-	font-size: 1rem;
-}
-
-.zakaz:after {
-	content: "........................................";
-	position: absolute;
-	top: -70px;
-	left: -125px;
-	color: #666;
-	font-size: 16px;
-	font-size: 1rem;
-	-webkit-transform: rotate(90deg);
-	-ms-transform: rotate(90deg);
-	-o-transform: rotate(90deg);
-	transform: rotate(90deg);
+.karaoke-phone {}
+.karaoke-phone .phone {
+    font-size: 22px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: bold;
 }
 
 /* CONTACTS */
@@ -742,4 +734,68 @@ li.action_box {
 
 .logo .sport {
     background-position: -513px 0;
+}
+
+.action-container {
+    width: 620px;
+    min-height: 200px;
+    margin: 34px auto;
+}
+.action-container-top {
+    width: 100%;
+    height: 100%;
+    background: url(../img/border-point-top-left.jpg) repeat-x top left;
+}
+.action-container-left {
+    width: 100%;
+    height: 100%;
+     background: url(../img/border-point-top-left.jpg) repeat-y top left;
+}
+.action-container-bottom {
+    width: 100%;
+    height: 100%;
+    background: url(../img/border-point-bottom-right.jpg) repeat-x bottom right;
+}
+.action-container-right {
+    width: 100%;
+    height: 100%;
+    background: url(../img/border-point-bottom-right.jpg) repeat-y bottom right;
+    padding: 10px;
+}
+.action-container-inner.singing_weekend {
+    background: url(../img/action_singing_weekend.jpg) no-repeat top right;
+}
+.action-container-inner.dance_friday {
+    background: url(../img/action_dance_friday.jpg) no-repeat top right;
+}
+.action-container-inner.discount_on_bar {
+    background: url(../img/action_discount_on_bar.jpg) no-repeat top right;
+}
+.action-container-inner.sports_broadcasting {
+    background: url(../img/action_sports_broadcasting.jpg) no-repeat top right;
+}
+.action-container-inner.wine_monday {
+    background: url(../img/action_wine_monday.jpg) no-repeat top right;
+}
+.action-container-inner {
+    margin-top: 9px;
+    margin-left: 16px;
+    padding-top: 11px;
+    margin-right: 14px;
+}
+.action-container h3 {
+    text-transform: uppercase;
+    font-size: 18px;
+    color: #d83c27;
+    font-family: 'Roboto Condensed', sans-serif;
+    margin-top: 0px;
+    font-weight: normal;
+    width: 316px;
+}
+.action-container p {
+    font-size: 14px;
+    color: #000000;
+    font-family: 'Roboto', sans-serif;
+    line-height: 19px;
+    width: 316px;
 }

@@ -5,24 +5,37 @@
 }
 
 /* Подключение шрифта RobotoCondensed
+Подключается из google fonts
 
 @font-face {
     font-family: 'Roboto Condensed'; 
     src: local("RobotoCondensed"), 
     url(../Roboto_Condensed/RobotoCondensed-Regular.ttf) format("truetype");
     font-style: normal;
-    font-weight: normal; 
+    font-weight: normal;
   }
+@font-face {
+    font-family: 'RobotoCondensed-Light';
+    src: url("../Roboto_Condensed/RobotoCondensed-Light.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'RobotoCondensed-Bold';
+    src: url("../Roboto_Condensed/RobotoCondensed-Bold.ttf");
+    font-style: normal;
+    font-weight: normal;
+}
 */
 
 
 html, body {
-	font-family: 'Roboto Condensed', sans-serif; !important; 
+	font-family: 'Roboto Condensed', sans-serif; !important;
 	font-style: normal;
     font-weight: normal;
-    min-width: 960px; 
+    min-width: 960px;
 	min-height: 100%;
-} 
+}
 
  /* p */
 
@@ -39,7 +52,7 @@ html, body {
 	position: relative;
 	height: 37px;
 	border-top: 1px solid #666;
-	margin: 35px 0 0;
+	margin: 52px 0 0;
 }
 
 .line:before, .line:after {
