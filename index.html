@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./assets/zbulvar/css/footer.css">
     <link rel="stylesheet" href="./assets/zbulvar/css/boshnik.css">
     <link rel="stylesheet" href="./assets/zbulvar/css/media_boshnik.css">
+    <link rel="stylesheet" href="./assets/zbulvar/css/jquery.bxslider.css">
 
     <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,700italic,400,700&subset=latin,cyrillic-ext,cyrillic' rel='stylesheet' type='text/css'>
 
@@ -67,9 +68,37 @@
 <script>
     var home_page_flag = 1;
 </script>
+        		<!-- slider -->
+        		<div id="top-wrapper">
+        		<div id="div-overall-wrapper">
+	        		<ul class="bxslider">
+	        			<li><img class="slider-image" src="assets/zbulvar/img/slider/slide_0.jpg" /><div class="slider-container"><div class="count">1/5</div><div class="slider-header">СКИДКИ НА БАР</div><div class="slider-text">С понедельника по четверг в период vс 22.00 до 01.00 действует скидка на бар 30%</div><img class="slider-sub-image" src="assets/zbulvar/img/slider/sub_slide_0.png"></div></li>
+
+	        			<li><img class="slider-image" src="assets/zbulvar/img/slider/slide_1.jpg" /><div class="slider-container"><div class="count">2/5</div><div class="slider-header">ВИННЫЙ ПОНЕДЕЛЬНИК</div><div id="ptsans">Специальное предложение — бутылка красного вина Merlo Redwood (Калифорния) (1200 ₽) + сырное ассорти 80 ₽)</div><div id="ptsansb">ВСЕГО ЗА 999 ₽</div><img class="slider-sub-image" src="assets/zbulvar/img/slider/sub_slide_1.png"></div></li>
+
+	  						<li><img class="slider-image" src="assets/zbulvar/img/slider/slide_2.jpg" /><div class="slider-container"><div class="count">3/5</div><div class="slider-header">ТАНЦЕВАЛЬНАЯ ПЯТНИZZZА</div><div class="slider-text">C 19.00 до 21.00 КАЖДЫЙ ТРЕТИЙ КОКТЕЙЛЬ — В ПОДАРОК. Ну а с 21.00 пятница вступает в свои права, и начинаются танцы (живая музыка и DJ)!</div><img class="slider-sub-image" src="assets/zbulvar/img/slider/sub_slide_2.png"></div></li>
+
+	  						<li><img class="slider-image" src="assets/zbulvar/img/slider/slide_3.jpg" /><div class="slider-container"><div class="count">4/5</div><div class="slider-header">ПОЮЩИЙ WEEKEND</div><div class="slider-text">В субботу и в воскресенье каждой компании от 6 человек, пришедшей в караоке, бутылка шампанского — В ПОДАРОК!</div><img class="slider-sub-image" src="assets/zbulvar/img/slider/sub_slide_3.png"></div></li>
+
+	  						<li><img class="slider-image" src="assets/zbulvar/img/slider/slide_4.jpg" /><div class="slider-container"><div class="count">5/5</div><div class="slider-header">СПОРТИВНЫЕ ТРАНСЛЯЦИИе</div><div class="slider-text">Самые громкие спортивные трансляции на шести плазменных экранах! Закажите 4 бокала пива и получите 2 бокала пива в подарок. Болеть за любимую команду в компании друзей будет веселее!</div><img class="slider-sub-image" id="last-sub-image" src="assets/zbulvar/img/slider/sub_slide_4.png"></div></li>
+							</ul>
+
+							<div id="bx-pager">
+								<div id="anti">Антикризисный разгул</div>
+	  						<a class="slider-miniature" data-slide-index="0" href="">СКИДКА НА БАР</a>
+	  						<a class="slider-miniature" data-slide-index="1" href="">ВИННЫЙ ПОНЕДЕЛЬНИК</a>
+	  						<a class="slider-miniature" data-slide-index="2" href="">ТАНЦЕВАЛЬНАЯ ПЯТНИZZZA</a>
+	  						<a class="slider-miniature" data-slide-index="3" href="">ПОЮЩИЙ WEEKEND</a>
+	  						<a  class="slider-miniature" data-slide-index="4" href="">СПОРТИВНЫЕ ТРАНСЛЯЦИИ</a>
+							</div>
+						</div>
+						</div>>
+						<!-- end of slider -->
 <section class="section_content">
     <div class="home_content row-960">
         <div class="max-100">
+
+
 
             <!-- carousel -->
             <div class="carousel row">
@@ -219,6 +248,8 @@
     </div>
 </footer>
 <script src="./assets/zbulvar/js/vendor/jquery-2.1.1.min.js" defer></script>
+<script src="./assets/zbulvar/js/jquery.bxslider.min.js" defer></script>
+<script src="./assets/zbulvar/js/boxslider-settings.js" defer></script>
 <script src="./assets/zbulvar/js/boshnik-date.js" defer></script>
 
 <script src="./assets/zbulvar/js/boshnik_slide.js" defer></script>
@@ -226,6 +257,7 @@
 <script src="./assets/zbulvar/js/fancybox.min.js" defer></script>
 <script src="./assets/zbulvar/js/jquery.jcarousel.min.js" defer></script>
 <script src="./assets/zbulvar/js/jcarousel.basic.js" defer></script>
+
 
 
 <script type="text/javascript" src="/assets/components/ms2gallery/js/web/default.js"></script>
