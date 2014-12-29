@@ -115,33 +115,15 @@
 .header_text {display: none}
 
 /* header мероприятие */
-.invest .home_header, 
-.menu_index .home_header,
-.wine .home_header,
 .contacts .home_header {
 	height: 239px;
 }
 
-
-.menu_index .logo,
-.wine .logo,
 .contacts .logo {
     width: 78px;
     padding-top: 76px;
 }
-.invest .logo {
-    width: 78px;
-    padding-top: 76px;
-}
 
-.menu_index .logo img,
-.wine .logo img,
-.contacts .logo img {
-}
-
-.invest .logo_tel,
-.menu_index .logo_tel,
-.wine .logo_tel,
 .contacts .logo_tel {
     position: absolute;
     top: 94px;
